@@ -1,8 +1,8 @@
 import React from "react";
 import { ApolloProvider } from "@apollo/client";
 import { client } from "./client";
-import { AddItem } from "./AddItem";
-import { ItemList } from "./ItemList";
+import AddItem from "./AddItem";
+import ItemList from "./ItemList";
 
 function App() {
   return (
